@@ -21,11 +21,12 @@ img {
 
 a {
     color: white;
+    text-decoration: none;
 }
 
-ul, a{
-    text-decoration: none;
+ul {
     list-style: none;
+    padding: 10px 20px;
 }
 
 #homepage {
@@ -43,17 +44,23 @@ ul, a{
 }
 
 #links {
-    margin: 10px auto;
+    margin: 10px 0px;
     display: flex;
     gap: 10px;
+    padding: 0;
 }
 
 h1 {
     font-size: 30px;
-    margin: 10px auto;
+    margin: 10px 0px;
 }
 
 h3 {
-    margin: 10px auto;
+    margin: 10px 0px;
     font-size: 24px;
+}
+
+p {
+    margin: 5px 0px;
+    font-size: 16px;
 }
